@@ -1,0 +1,590 @@
+/*CSS PAGE HOME*/
+
+h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  
+}
+
+/*----------HEADER PAGE HOME----------*/
+
+.header-home {
+  display: none;
+    padding-top: 5rem;
+    
+    background-color: #2a2524;
+    width: 100%;
+  }
+  
+  .header-home > div {
+    width: 100%;
+  }
+  
+  
+  .content {
+    display: flex;
+    flex-wrap: nowrap;
+    
+    padding-bottom: 2rem;
+    background-color: transparent;
+   
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  .header-home img {
+    width: 7rem;
+    height: 7rem;
+    
+    border-radius: 50%;
+    margin-left: 1rem;
+    object-fit: cover;
+    margin-top: 3rem;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.164) ;
+  }
+  
+  /*----------MAIN HOME----------*/
+  
+  .main-home {
+   
+    background-color: #2a2524;
+  }
+  
+
+  
+  .main-home h3 {
+    font-size: 12px;
+    font-weight: normal;
+  }
+  
+
+  
+  .main-home > div {
+    width: 100%;
+  }
+  
+  .card {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: #fef4db;
+  }
+  
+  .card h5 {
+    font-size: 10px;
+    font-weight: lighter;
+    margin-left: 1rem;
+    margin-top: 10px;
+  }
+  
+  .titre2 {
+    font-size: 10px;
+    font-weight: 200;
+    color: #fef4db;
+    padding-bottom: 3px;
+  }
+
+  .une {
+    padding-top: 2rem;
+  }
+
+  .une h2 {
+    color: #fef4db;
+  }
+  
+  .image-une {
+    width: 275px;
+    height: 156px;
+    margin-left: 1rem;
+   
+    object-fit: cover;
+  }
+  
+  .card-text {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    width: 60%;
+  }
+  
+  .bookmark-une {
+    width: 15px;
+  }
+  
+  .titre {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  
+  .titre > h2 {
+    color: #f26541;
+  }
+  
+  .plus {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+   margin-bottom: 5px;
+   color: #fef4db;
+  }
+
+  .plus h6 {
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 10px;
+font-weight: lighter;
+opacity: 40%;
+margin-right: 5px;
+
+  }
+  
+  #picto-plus {
+    padding-right: 1rem;
+  }
+  
+  .bloc {
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  
+  .tag {
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 5px;
+    right: 5px;
+    
+  }
+  
+  
+  .bookmark {
+    position: absolute;
+    width: 15px;
+    top: 5px;
+    left: 25px;
+  }
+  
+  .timer {
+    font-family: "DS-Digital", arial;
+    position: absolute;
+    bottom: -10px;
+    left: calc(50% - 22px);
+    background-color: #423937;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff4b21;
+    border: solid 0.5px; 
+    border-radius: 5px;
+    border-color: #ff4b21;
+    padding: 4px 10px 4px 10px;
+  }
+  
+  .bloc-text {
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 15px;
+  
+    padding-left: -10px;
+  }
+  
+  .bloc-text h3 {
+    font-size: 12px;
+    color: #fef4db;
+  }
+  
+  /*concerts*/
+  
+  .image-concert {
+    width: 160px;
+    height: 90px;
+    margin-left: 1rem;
+    object-fit: cover;
+  }
+  
+  .date-concert {
+    font-size: 10px;
+    font-weight: lighter;
+    color: #fef4db;
+    padding-top: 5px;
+  }
+  
+  /*festivals*/
+  
+  .image-festival {
+    width: 220px;
+    height: 100px;
+    margin-left: 1rem;
+    object-fit: cover;
+  }
+  
+  /*soirées*/
+  
+  .bloc-soiree {
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .image-soiree {
+    
+    height: 170px;
+    
+    object-fit: cover;
+  }
+  
+  .bookmark-soiree {
+    width: 15px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+  .tag-soiree {
+    position: absolute;
+    
+    right: 5px;
+   
+  }
+  
+  .date-soiree {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fef4db;
+    border-color: #ff4b21;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 0 0 10px 0;
+    background-color: #2a2524;
+    padding: 4px 10px 4px 10px;
+  }
+  
+  .bloc-text-soiree {
+    position: absolute;
+    text-align: left;
+  
+    background-color: #d84831;
+    color: #2a2524;
+  
+    margin-top: -20px;
+    margin-left: 1rem;
+    margin-right: 8rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 30px;
+  
+  }
+  
+  .bloc-text-soiree h3 {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .bloc-text-soiree p {
+    font-size: 10px;
+    font-weight: lighter;
+  }
+  
+  /*albums*/
+
+  .album {
+    background-color: #2a2524;
+  }
+  
+  .image-album {
+    width: 100px;
+    height: 100px;
+    margin-left: 1rem;
+    object-fit: cover;
+  }
+  
+  .titre-album {
+    padding-top: 2rem;
+  }
+  
+  .titre-album > h2 {
+    color: #f26541;
+  }
+  
+  .bloc-text-album {
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 5px;
+    padding-left: -10px;
+  }
+  
+  .bloc-text-album h3 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fef4db;
+  }
+
+ 
+  /*podcasts*/
+
+  .podcast {
+    background-color: #2a2524;
+  }
+  
+  .image-podcast {
+    width: 100px;
+    height: 100px;
+    margin-left: 1rem;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  
+ 
+  
+  
+  /*----------BOUTON RECHERCHE HOME----------*/
+  
+  .bouton-recherche {
+    position: sticky;
+    bottom: 5px;
+    left: 70%;
+    width: 100px;
+  }
+
+
+  .plus-desktop {
+
+    display: none;
+
+  }
+  
+
+  
+  @media screen and (min-width:1000px) {
+
+    .grid {
+      display: grid;
+      
+      grid-template-rows: auto 250px auto 100px;
+      grid-template-areas: 
+      "nav nav nav nav nav"
+      "album hd hd hd podcast"
+      "album main main main podcast"
+      "ft ft ft ft ft";
+    }
+
+
+
+
+  .bouton-recherche {
+    display: none;
+  }
+
+
+    .grid > .nav-desktop {
+      grid-area: nav;
+    }
+
+    .grid > header {
+      grid-area: hd;
+    }
+
+    .grid > main {
+      grid-area: main;
+    }
+
+    .grid > aside {
+      grid-area: album;
+      width: 300px;
+      height: 100%;
+    }
+
+    .grid > .podcast {
+      grid-area: podcast;
+      width: 300px;
+      
+      
+      height: 100%;
+    }
+
+    .grid > footer {
+      grid-area: ft;
+    }
+
+    .header-home {
+      display: none;
+      padding-top: 5rem;
+      display: flex;
+      background-color: #262120;
+      width: 100%;
+    }
+
+
+.bloc-principal {
+  display: unset;
+  
+}
+
+.main-home {
+  color: #fef4db;
+  background-color: #262120;
+}
+
+
+
+
+ 
+.content2 {
+  display: unset;
+  flex-wrap: nowrap;
+  overflow-x: unset;
+  padding: 0;
+  scroll-snap-type: unset;
+  background-color: transparent;
+  scroll-behavior: smooth;
+  padding-bottom: 5rem;
+}
+
+.album {
+  position: relative;
+  padding:110px 2rem 0 2rem ;
+}
+
+.podcast {
+  position: relative;
+  padding:110px 2rem 0 2rem;
+}
+
+.titre-aside h2 {
+  padding-bottom: 3rem;
+}
+
+.card-aside {
+  padding-bottom: 2rem;
+}
+
+
+.bloc-text-album {
+  text-align: left;
+  margin-left: unset;
+  margin-top: unset;
+  border-style: none;
+  border-radius: none;
+  padding-left: unset;
+}
+
+.image-podcast {
+  width: 240px;
+  height: 120px;
+  margin-left: unset;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.image-album {
+  width: 130px;
+  height: 130px;
+  margin-left: unset;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.plus {
+  display: none;
+}
+
+
+
+
+.bloc-aside {
+  padding-bottom: 2rem;
+}
+
+.flex-titre {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.flex-titre p {
+  margin-left: 1rem;
+  font-size: 16px;
+}
+
+.flex-titre h3 {
+  font-size: 16px;
+}
+
+.bookmark-aside {
+  position: absolute;
+  width: 20px;
+  top: 0;
+  right: 30%;
+  left: unset;
+}
+
+.tag-aside {
+  position: absolute;
+  bottom: 10px;
+  top: unset;
+  right: 5%;
+  color: #ff4b21;
+  background-color: #262120;
+  
+  border-style: solid;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.6em;
+  font-weight: normal;
+  padding: 2px 7px 2px 7px;
+  margin-top: 10px;
+  width: fit-content;
+
+}
+
+
+.plus-desktop {
+  position: absolute;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  bottom:10px;
+  left: 30%;
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+.plus-desktop h6 {
+  color: #fef4db;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.plus-desktop img {
+  max-width: 60px;
+  margin-left: 0.5rem;
+}
+
+
+
+
+  }
+  

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="94.41" height="94.737" viewBox="0 0 94.41 94.737">
+  <defs>
+    <radialGradient id="radial-gradient" cx="1" cy="1" r="0.627" gradientTransform="matrix(0.707, -0.707, 1.595, 1.595, 0.059, 0.317)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0" cy="0" r="0.627" gradientTransform="translate(4.228 1.678) rotate(135) scale(1 2.256)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ffe4e4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Groupe_329" data-name="Groupe 329" transform="translate(-140 -422.599)">
+    <g id="disc-32390" transform="translate(140 422.599)">
+      <path id="Tracé_1081" data-name="Tracé 1081" d="M64.572,19a46.862,46.862,0,1,0,46.862,46.862A46.879,46.879,0,0,0,64.572,19Zm0,45.547a1.314,1.314,0,1,1-1.314,1.314A1.314,1.314,0,0,1,64.572,64.547Z" transform="translate(-17.024 -17.987)" fill="rgba(0,0,0,0.51)" fill-rule="evenodd"/>
+      <path id="Tracé_1082" data-name="Tracé 1082" d="M61.862,15a46.862,46.862,0,1,0,46.862,46.862A46.879,46.879,0,0,0,61.862,15Zm0,45.547a1.314,1.314,0,1,1-1.314,1.314A1.314,1.314,0,0,1,61.862,60.547Z" transform="translate(-15 -15)" fill="#ff4b21" fill-rule="evenodd" opacity="0.8"/>
+      <path id="Tracé_1083" data-name="Tracé 1083" d="M149.715,132.66a17.059,17.059,0,1,0,17.059,17.059A17.07,17.07,0,0,0,149.715,132.66Zm0,15.934a1.124,1.124,0,1,1-1.124,1.124A1.123,1.123,0,0,1,149.715,148.594Z" transform="translate(-102.853 -102.856)" fill="#423937" fill-rule="evenodd"/>
+      <path id="Tracé_1084" data-name="Tracé 1084" d="M61.862,15a46.862,46.862,0,1,0,46.862,46.862A46.879,46.879,0,0,0,61.862,15Zm0,.91A45.956,45.956,0,1,1,15.9,61.863,45.971,45.971,0,0,1,61.862,15.91Z" transform="translate(-15 -15)" fill-rule="evenodd"/>
+      <path id="Tracé_1085" data-name="Tracé 1085" d="M223.7,200A23.714,23.714,0,0,1,200,223.706v22.251A45.978,45.978,0,0,0,245.958,200H223.7Z" transform="translate(-153.137 -153.137)" fill-rule="evenodd" fill="url(#radial-gradient)"/>
+      <path id="Tracé_1086" data-name="Tracé 1086" d="M40.822,64.521a23.714,23.714,0,0,1,23.7-23.708V18.562a45.978,45.978,0,0,0-45.96,45.96H40.821Z" transform="translate(-17.66 -17.66)" fill-rule="evenodd" fill="url(#radial-gradient-2)"/>
+      <path id="Tracé_1087" data-name="Tracé 1087" d="M160.936,136.274a17.439,17.439,0,1,0,0,24.662A17.447,17.447,0,0,0,160.936,136.274Zm-.543.543a16.671,16.671,0,1,1-23.576,0A16.679,16.679,0,0,1,160.393,136.817Z" transform="translate(-101.743 -101.743)" fill="none" fill-rule="evenodd"/>
+      <path id="Tracé_1088" data-name="Tracé 1088" d="M169.532,150.306a13.6,13.6,0,1,0,0,19.233,13.606,13.606,0,0,0,0-19.233Zm-8.687,8.687a1.314,1.314,0,1,1-1.858,0A1.314,1.314,0,0,1,160.845,158.993Z" transform="translate(-113.055 -113.06)" fill="#ff4b21" fill-rule="evenodd" opacity="0.7"/>
+      <path id="Tracé_1089" data-name="Tracé 1089" d="M224.893,144.847a15.662,15.662,0,0,0-6.152-3.8l-.313.94a14.768,14.768,0,0,1,9.712,10.719l.968-.218a15.659,15.659,0,0,0-4.215-7.64Z" transform="translate(-166.898 -109.118)" fill="#423937" fill-rule="evenodd" opacity="0.743"/>
+      <path id="Tracé_1090" data-name="Tracé 1090" d="M139.055,189.765l-.985-.168a15.741,15.741,0,0,0,18.118,18.163l-.162-.98a14.747,14.747,0,0,1-16.971-17.016Z" transform="translate(-106.731 -145.371)" fill="#423937" fill-rule="evenodd" opacity="0.743"/>
+      <line id="Ligne_19" data-name="Ligne 19" x2="15.694" y2="9.987" transform="translate(60.636 55.501)" fill="none" stroke="#423937" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

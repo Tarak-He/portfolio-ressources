@@ -1,0 +1,22 @@
+.home {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    text-align: center;
+    height: 100vh;
+    margin: 0 auto;
+    width: 1060px;
+    h1 {font-size: 68px;}
+    svg{width: 15%;}
+    div {margin: 20px;}
+}
+
+
+#intro-title {
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 62px;
+        font-weight: 700;
+    }
+}

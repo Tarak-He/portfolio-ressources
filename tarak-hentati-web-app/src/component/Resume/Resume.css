@@ -1,0 +1,318 @@
+@charset "UTF-8";
+#resumeContainer {
+  margin: 0 auto;
+  padding: 6rem;
+  padding-top: 0;
+  margin-left: 5rem;
+  background: url(../../background-27.png);
+}
+
+#resumeTopButtons {
+  text-align: left;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#resumeTopButtons > a {
+  text-decoration: none;
+  background-color: white;
+  color: #1a1a1a;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  margin-left: 0px;
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.15);
+  width: max-content;
+}
+
+#resumeTopButtons :hover {
+  background-color: whitesmoke;
+}
+
+#resumeTopButtons :active {
+  padding: 8px;
+}
+
+#htmlResume {
+  background-color: white;
+  box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.15);
+  padding: 4rem;
+}
+
+#htmlResume {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#resumeLeftBar > div > img {
+  width: 56.5%;
+  border-radius: 50%;
+}
+
+#resumeLeftBar textarea {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  overflow: hidden;
+  outline: none;
+  background-color: transparent;
+  max-height: 18px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+  /*remove the resize handle on the bottom right*/
+}
+
+#phonebox {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+}
+
+#phonebox > button {
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Raleway';
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: #007bff;
+  box-shadow: 1px 1px 3px -2px rgba(0, 0, 0, 0.75);
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+
+#htmlResume > :nth-child(1) {
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+}
+
+#htmlResume > :nth-child(1) > div span {
+  background-color: #1a1a1a;
+  height: 1.5px;
+  margin: 0 auto;
+  margin-top: 0px;
+  display: block;
+  width: 100%;
+  margin-top: 25px;
+}
+
+#htmlResume > :nth-child(1) :nth-child(2) h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  color: #32afb2;
+  font-weight: 700;
+}
+
+#resumeInfos > :not(:first-child) {
+  text-align: left;
+  margin: 10px;
+  text-align-last: left;
+  background-color: whitesmoke;
+  border-bottom: 2px transparent solid;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 3px -2px rgba(0, 0, 0, 0.75);
+}
+
+#resumeInfos > :not(:first-child):hover {
+  background-color: #ffffff;
+}
+
+#htmlResume > :nth-child(1) :nth-child(2) > div:not(:first-child) h4 {
+  color: #32afb2;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+
+#htmlResume > :nth-child(2) {
+  width: 70%;
+  padding: 30px;
+}
+
+#resumeRightBar h3 {
+  font-size: 32px;
+}
+
+#resumeRightBar > :first-child {
+  width: 80%;
+}
+
+#resumeRightBar > :first-child > h1 {
+  font-size: 46px;
+  font-weight: 700;
+  font-family: 'raleway', sans-serif;
+}
+
+#resumeRightBar > span {
+  background-color: #1a1a1a;
+  height: 1.5px;
+  margin: 0 auto;
+  margin-top: 0px;
+  display: block;
+  width: 65%;
+  margin-top: 25px;
+}
+
+#skills {
+  display: flex;
+}
+
+#skills table {
+  text-align-last: left;
+  margin-top: 0;
+  width: 100%;
+  font-size: 20px;
+}
+
+#resumeRightBar #skills table th {
+  color: #32afb2;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 5px;
+}
+
+#resumeRightBar #skills table td {
+  width: 32%;
+  vertical-align: top;
+}
+
+#resumeRightBar #formation > :nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#resumeRightBar #formation > :nth-child(1) > :nth-child(1) {
+  width: 100%;
+}
+
+#resumeRightBar #formation > :nth-child(1) > :nth-child(2) {
+  width: 30%;
+}
+
+#resumeRightBar #formation > :nth-child(1) > :nth-child(1) > h5 {
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  color: grey;
+}
+
+#resumeRightBar #formation > :nth-child(1) > :nth-child(1) > h4 {
+  color: #32afb2;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+
+#resumeRightBar #formation > :nth-child(1) > :nth-child(1) > h4::after {
+  content: "Janvier 2020 - Mai 2020";
+  margin-left: 30px;
+  font-size: 14px;
+  color: grey;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#resumeRightBar #formation > :nth-child(1) > :nth-child(2) {
+  text-align: center;
+}
+
+#resumeRightBar #formation > :nth-child(1) > :nth-child(2) > img {
+  width: 200px;
+}
+
+#resumeRightBar #experiences > :nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#resumeRightBar #experiences > :nth-child(1) > :nth-child(1) {
+  width: 100%;
+}
+
+#resumeRightBar #experiences > :nth-child(1) > :nth-child(1) > h4 {
+  color: #32afb2;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+
+#resumeRightBar #experiences > :nth-child(1) > :nth-child(2) {
+  width: 30%;
+}
+
+#resumeRightBar #experiences > :nth-child(1) > :nth-child(1) > h5 {
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  color: grey;
+}
+
+#resumeRightBar #experiences > :nth-child(1) > :nth-child(1) > h4::after {
+  content: "Juin 2015 - Décembre 2019";
+  margin-left: 50px;
+  font-size: 14px;
+  color: grey;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#resumeRightBar #experiences > :nth-child(1) > :nth-child(2) {
+  text-align: center;
+}
+
+#resumeRightBar #experiences > :nth-child(1) > :nth-child(2) > img {
+  width: 80px;
+}
+
+#resumeRightBar #experiences > :nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+}
+
+#resumeRightBar #experiences > :nth-child(3) > :first-child h4 {
+  color: #32afb2;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+
+#resumeRightBar #experiences > :nth-child(3) > :first-child h5 {
+  color: grey;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+
+#resumeRightBar #experiences > :nth-child(3) > :nth-child(1) {
+  width: 100%;
+}
+
+#resumeRightBar #experiences > :nth-child(3) > :nth-child(2) {
+  width: 30%;
+}
+
+#resumeRightBar #experiences > :nth-child(3) > :nth-child(2) {
+  text-align: center;
+}
+
+#resumeRightBar #experiences > :nth-child(4) {
+  color: inherit;
+}
+
+#resumeRightBar #misc {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#resumeRightBar #misc > :first-child {
+  width: max-content;
+  margin-right: 2rem;
+}
+
+#resumeRightBar #misc h5 {
+  color: #32afb2;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}

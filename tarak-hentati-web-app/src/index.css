@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&family=Rubik:wght@300&display=swap");
+:root {
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --main-color: #32afb2;
+  --transition-speed: 200ms;
+}
+html {
+  overflow-y: scroll;
+  scrollbar-color: var(--main-color) white;
+  scrollbar-width: thin;
+  font-family: 'Rubik', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Raleway', sans-serif;
+  color: var(--main-color);
+}
+a {text-decoration: none;color: inherit;}
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar {
+  width: 0.50rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

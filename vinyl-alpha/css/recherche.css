@@ -1,0 +1,311 @@
+* {
+    color: #fef4db;
+    background-color: #2a2524;
+  }
+  
+  
+  
+  header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  header img {
+    width: 11px;
+    margin-left: 1rem;
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fef4db;
+    margin-left: 15vw;
+  }
+  
+  .wrapper {
+    max-width: 600px;
+    width: 100%;
+    margin: 3vh auto;
+  }
+  
+  input {
+    display: none;
+  }
+  
+  input:checked ~ .content {
+    max-height: 800px;
+    transition: max-height, 2s;
+  }
+  
+  .input-choix:checked ~ .content {
+    max-height: 800px;
+    transition: max-height, 2s;
+  }
+  
+  label {
+    
+    width: 100%;
+    height: 75px;
+    cursor: pointer;
+    border: 3px transparent #3e474f;
+    background-color: #ff4b21;
+    color: #ff4b21;
+    user-select: none;
+  }
+  
+  .tab-choix {
+    font-family: "Roboto mono", sans-serif;
+    position: relative;
+    width: 100%;
+   height: 75px;
+    background-color: #ff4b21;
+    text-align: center;
+    
+   
+  }
+  
+  .tab-choix p {
+    
+    background-color: transparent;
+    font-size: 10px;
+    margin-top: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+  
+  .picto-descendre {
+    background-color: transparent;
+    position: absolute;
+    right: 1rem;
+    bottom: 10px;
+    z-index: 10;
+    max-width: 11.5px;
+  
+  }
+  
+  
+  .picto-descendre:after {
+    transform: rotate(40deg);
+    margin-top: -2px;
+  }
+  
+  
+  
+  input:checked ~ label .picto-descendre:before {
+  transform: rotate(40deg);
+  }
+  
+  input:checked ~ label .picto-descendre:after {
+  transform: rotate(0deg);
+  }
+  
+  
+  
+  
+  .image-choix {
+    background-color: transparent;
+    margin-top: 15px;
+    margin-bottom: -5px;
+    max-width: 26px;
+    max-height: 26px;
+   
+  }
+  
+  .content {
+    box-sizing: border-box;
+    font-size: 0.9em;
+    margin: 5px 0px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height, 0.5s;
+  }
+  
+  .select {
+    background-color: transparent;
+  }
+  
+  .label-select {
+    display: flex;
+    margin-left: calc(90% - 70px);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    font-weight: normal;
+    width: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    border: 3px transparent #3e474f;
+    height: auto;
+    color: #fef4db;
+    user-select: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+  
+  .content-style {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-style {
+    position: relative;
+    max-width: 33.333%;
+    height:130px;
+    
+  }
+  
+  .image-style input {
+    display: inline;
+  }
+  
+  .checkbox-style {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .label-style {
+   
+    padding: 1px;
+    background-color: #2a2524;
+  }
+  
+  .label-style h4 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    top: 40%;
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 100%;
+    padding: 5px 0 5px 0;
+  }
+  
+  .label-style:active {
+    background-color: #ff4b21;
+    color: #ff4b21;
+  }
+  
+  .img-checkbox {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .checkbox-voirplus {
+    background-color: transparent;
+  }
+  
+  .checkbox-voirplus:checked ~ label {
+    display: none;
+  }
+  
+  .label1 {
+    display: flex;
+    height: 40px;
+    width: auto;
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+    user-select: none;
+  }
+  
+  .tab2 {
+    background-color: transparent;
+    font-size: 10px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: calc(50% - 35px);
+    opacity: 0.8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+  }
+  
+  .tab2 img {
+    width: 20px;
+    margin-left: 3px;
+  }
+  
+  .tab3 {
+    margin-left: 17.3em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .bouton-basdepage {
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-style: hidden;
+    border-radius: 20px;
+    width: 290px;
+    height: 40px;
+    background-color: #ff4b21;
+    color: #ffffff;
+    position: fixed;
+    bottom: 25px;
+    left: calc(50% - 145px);
+    z-index: 5;
+  }
+  /*
+  .picto-descendre{
+    margin-right:15px;
+    margin-top:3px;
+    background-color: #FF4B21;
+  }
+  
+  .picto-descendre:before,
+  .picto-descendre:after {
+    content: '';
+    border-bottom: 2px solid #FEF4DB;
+    width: 15px;
+    display: block;
+    margin-top: 18px;
+    transition: 0.3s;
+  }
+  
+  .picto-descendre:after {
+    transform: rotate(90deg);
+    margin-top: -2px;
+  }
+  */
+  
+  /*
+  input:checked ~ label .picto-descendre:before {
+  transform: rotate(90deg);
+  }
+  
+  input:checked ~ label .picto-descendre:after {
+  transform: rotate(0deg);
+  }
+  
+  */
+  
+  /*
+  .image-style img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+  }
+  */
+  
+  /*
+  .checkbox1 {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+  }
+  */
+  
